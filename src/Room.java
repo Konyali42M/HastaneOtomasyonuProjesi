@@ -2,8 +2,8 @@ public class Room {
     private String roomId;
     private String name;
 
-    public Room(String roomId, String name){
-        this.roomId = roomId;
+    public Room(String roomID, String name){
+        this.roomId = roomID;
         this.name = name;
     }
 
