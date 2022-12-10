@@ -1,11 +1,14 @@
+import java.util.ArrayList;
+
 public class Department {
     private String id;
     private String name;
-    private Room[] rooms;
+    private ArrayList<Room> rooms;
 
     public Department(String id, String name) {
         this.id = id;
         this.name = name;
+        this.rooms = new ArrayList<>();
     }
 
     public String getId() {
@@ -20,7 +23,7 @@ public class Department {
         return name;
     }
 
-    public Room[] getRooms() {
+    public ArrayList<Room> getRooms() {
         return rooms;
     }
 
@@ -28,11 +31,11 @@ public class Department {
         this.name = name;
     }
 
-    public void addRoom (Room r) {
-
+    public boolean addRoom (Room r) {
+        return rooms.add(r);
     }
 
     public void listRooms() {
-
+        System.out.println(rooms); // bu method tahmini olarak eklendi gerek olmayabilir.
     }
 }
