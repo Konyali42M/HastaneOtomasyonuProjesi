@@ -1,2 +1,2 @@
 # HastaneOtomasyonuProjesi
-şuanlık burası boş ama doldurulacak.
+ilk amacımız oluşturup yüklediğim class dosyalarını doldurmak
